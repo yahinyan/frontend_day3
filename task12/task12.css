@@ -1,0 +1,30 @@
+.slider {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+#slider_image {
+    width: 100%;
+    height: auto;
+}
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    background-color: #2C233F;
+    color: #fff;
+     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+button:hover {
+    background-color: #231D2E;
+}
+#previous_button {
+    left: 10px;
+}
+#next_button {
+    right: 10px;
+}
